@@ -18,10 +18,10 @@ async function login(user, mima) {
     } catch {
         throw new Error(`Auth 回應無法解析: ${text}`);
     }
-    if (!data.token)
+    if (!data.Token)
         throw new Error(`Auth 回應無 token: ${text}`);
 
-    return data.token;
+    return data.Token;
 }
 
 async function fetchJList(token) {
