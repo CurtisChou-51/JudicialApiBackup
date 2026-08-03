@@ -1,0 +1,13 @@
+﻿{
+  "name": "jlist-backup",
+  "version": "1.0.0",
+  "private": true,
+  "description": "每日登入司法院API並備份JList原始JSON回應，獨立於主專案部署環境之外執行",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
